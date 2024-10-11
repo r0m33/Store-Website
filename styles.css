@@ -1,0 +1,62 @@
+html {
+    background-image: url(Images/bullets.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>h1{
+    text-align: center;
+    background-color: white;
+    
+}
+
+:root {
+
+}
+
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin: 0%;    
+}
+
+nav>ul>a>li {
+    padding: 10px;
+}
+
+nav>ul>a>li:hover {
+    background-color: red;
+}
+
+nav>ul>a>li {
+    text-decoration: none;
+    color: black;
+}
+
+#active {
+    background-color: crimson;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+table {
+    border: solid black;
+    text-align: center; 
+}
+
+td {
+    border: dotted black;
+}
+
+h2,p,h4, form {
+    background-color: white;
+}
